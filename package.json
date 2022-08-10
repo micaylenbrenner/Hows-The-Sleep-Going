@@ -4,7 +4,9 @@
   "description": "Solo Project",
   "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,10 +20,27 @@
   },
   "homepage": "https://github.com/micaylenbrenner/Hows-The-Sleep-Going#readme",
   "dependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.18.6",
+    "@babel/runtime": "^7.18.9",
     "express": "^4.18.1",
-    "path": "^0.12.7"
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-test-utils": "^0.0.1"
   },
   "devDependencies": {
-    "webpack": "^5.74.0"
+    "@babel/core": "^7.18.10",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^28.1.3",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }

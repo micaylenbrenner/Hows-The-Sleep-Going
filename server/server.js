@@ -5,7 +5,12 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+    res.status(200).json('hello world!');
+})
 
 
 
@@ -32,4 +37,4 @@ app.use((err, req, res, next) => {
 
 
 // export server
-module.exports = app.listen(port, () => console.log(`Listening on port ${port}`));
+module.exports = app.listen(port, () => console.log(`Listening on port ${port}...`));
