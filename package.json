@@ -1,0 +1,27 @@
+{
+  "name": "hows-the-sleep-going",
+  "version": "1.0.0",
+  "description": "Solo Project",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micaylenbrenner/Hows-The-Sleep-Going.git"
+  },
+  "keywords": [],
+  "author": "micaylenbrenner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micaylenbrenner/Hows-The-Sleep-Going/issues"
+  },
+  "homepage": "https://github.com/micaylenbrenner/Hows-The-Sleep-Going#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0"
+  }
+}
