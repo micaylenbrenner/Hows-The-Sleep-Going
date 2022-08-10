@@ -1,9 +1,6 @@
 const App = props => {
-    const test = 'please make this work';
 
-    return (
-      <div> { test } </div>
-    );
+    // return ('X');
 };
 
 export default App;
